@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 
+
 const isProd = process.env.NODE_ENV === "production";
-const API_PROD = "http://localhost:3001/";
-const API_DEV = "http://localhost:3001/";
+const API_PROD = "https://gestorumg.onrender.com/";
+const API_DEV = "https://gestorumg.onrender.com/";
 const HOST_DEV = "http://localhost:3000"
 const HOST_PROD = "http://localhost:3000"
 
