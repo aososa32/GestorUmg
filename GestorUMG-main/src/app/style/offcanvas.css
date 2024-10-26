@@ -1,0 +1,78 @@
+/**********************************************/
+/*****************OFF-CANVAS*******************/
+/**********************************************/
+.setting-toggle {
+  background-color: white;
+  background-clip: border-box;
+  color: #0c5dd6;
+  border: 1px solid #e3e6ed;
+  position: fixed;
+  top: 54%;
+  right: -12px;
+  text-decoration: none;
+  z-index: 1016;
+  -webkit-transform: rotate(-90deg) translate3d(-25px, 39px, 0);
+  -moz-transform: rotate(-90deg) translate3d(-25px, 39px, 0);
+  transform: rotate(-90deg) translate3d(-25px, 39px, 0);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: -83px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.setting-toggle div {
+  position: relative;
+  padding: 0.6rem 0.75rem;
+}
+
+.settings-popover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .setting-toggle {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    outline: none;
+    right: -5px;
+    top: 60%;
+  }
+  .setting-toggle small {
+    display: none;
+  }
+}
+
+.fa-spin-offcanvas {
+  -webkit-animation-name: fa-spin-offcanvas;
+  -moz-animation-name: fa-spin-offcanvas;
+  animation-name: fa-spin-offcanvas;
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  animation-delay: 0;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.text-700 {
+  color: rgba(82, 91, 117, 1) !important;
+}

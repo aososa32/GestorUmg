@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**********************************************/
+/**************STYLE GLOBAL********************/
+/**********************************************/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+::-webkit-input-placeholder {
+  opacity: 1;
+  color: #9fa6bc;
+}
+::-moz-placeholder {
+  opacity: 1;
+  color: #9fa6bc;
+}
+:-ms-input-placeholder {
+  opacity: 1;
+  color: #9fa6bc;
+}
+::-ms-input-placeholder {
+  opacity: 1;
+  color: #9fa6bc;
+}
+::placeholder {
+  opacity: 1;
+  color: #9fa6bc;
+}
+
+::-moz-selection {
+  background-color: #3874ff;
+  color: #fff;
+}
+
+::selection {
+  background-color: #3874ff;
+  color: #fff;
+}
+
+[id] {
+  scroll-margin-top: calc(4rem + 2.5rem);
+}
+
+html {
+  position: relative;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.49;
+  color: #31374a;
+  background-color: #f5f7fa !important;
+  opacity: 1 !important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@keyframes fa-spin-offcanvas {
+  0%{
+    transform:rotate(0deg)
+  }
+  to{
+    transform:rotate(1turn)
+  }
+}
+
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+.bg-info {
+  background-color: rgb(84 112 198) !important;
+}
+
+.bg-success {
+  background-color: rgb(145 204 117) !important;
+}
+
+.bg-warning {
+  background-color: rgb(250 200 88) !important;
+}
+
+.bg-danger {
+  background-color: rgb(220 53 69) !important;
+}
+
+/**********************************************/
+/**************IMPORT STYLE********************/
+/**********************************************/
+@import "./style/login.css";
+@import "./style/user.css";
+@import "./style/sidebar.css";
+@import "./style/navbar.css";
+@import "./style/footer.css";
+@import "./style/offcanvas.css";

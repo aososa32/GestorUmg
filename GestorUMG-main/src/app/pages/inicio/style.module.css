@@ -1,0 +1,17 @@
+/**********************************************/
+/****************dashboard-motul***************/
+/**********************************************/
+
+.fontCliente {
+    color: #91cc75;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.textH4 {
+    font-weight: 500;
+    line-height: 2.625rem;
+    letter-spacing: .0156rem!important;
+    font-family: inter,sans-serif,-apple-system,blinkmacsystemfont,Segoe UI,roboto,Helvetica Neue,arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol!important;
+    text-transform: none!important;
+}

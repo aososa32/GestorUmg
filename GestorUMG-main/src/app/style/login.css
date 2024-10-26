@@ -1,0 +1,90 @@
+/**********************************************/
+/********************AUTH**********************/
+/**********************************************/
+.container {
+  width: 100%;
+  padding-right: calc(2rem * 0.5);
+  padding-left: calc(2rem * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1184px;
+  }
+}
+@media (min-width: 1540px) {
+  .container {
+    max-width: 1678px;
+  }
+}
+
+/**********************************************/
+/*******************SIGN-IN********************/
+/**********************************************/
+.formLabel {
+  margin-bottom: 0.5rem;
+  font-size: 0.64rem;
+  font-weight: 700;
+  color: #525b75;
+  padding-left: 1rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.formIconContainer {
+  position: relative;
+}
+.formIconInput,
+.formIconLabel {
+  padding-left: 2.5rem !important;
+}
+.formIcon {
+  position: absolute;
+  top: 12px;
+  left: 1rem;
+  color: rgba(49, 55, 74, 1) !important;
+  font-size: 0.8rem !important;
+}
+
+.fwSemiBold {
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  color: #0c5dd6;
+  text-decoration: none;
+}
+
+/**********************************************/
+/***************FORGOT-PASSWORD****************/
+/**********************************************/
+.text1000 {
+  color: rgba(34, 40, 52, 1) !important;
+}
+
+.text700 {
+  color: rgba(82, 91, 117, 1) !important;
+}
+
+.flex1 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}

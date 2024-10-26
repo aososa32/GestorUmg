@@ -1,0 +1,181 @@
+/**********************************************/
+/********************CHAT**********************/
+/**********************************************/
+.support-chat-container {
+  display: none;
+}
+.support-chat-container.show {
+  display: block;
+}
+.support-chat {
+  position: fixed;
+  bottom: 3rem;
+  right: 0;
+  max-width: 27.87rem;
+  width: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
+  z-index: 1045;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 576px) {
+  .support-chat {
+    right: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .support-chat {
+    right: 2rem;
+  }
+}
+.support-chat .card {
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(36, 40, 46, 0.12);
+  box-shadow: 0px 0px 32px 0px rgba(36, 40, 46, 0.12);
+}
+.dark .support-chat .card {
+  -webkit-box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.41);
+}
+.support-chat .card-body {
+  height: 27rem;
+}
+.support-chat.show-chat {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.support-chat .send-btn {
+  width: 37.06px;
+  height: 37.06px;
+  border-radius: 50%;
+  color: #3874ff;
+}
+.support-chat .send-btn:hover {
+  background-color: #eff2f6;
+  color: #004dff;
+}
+.support-chat .send-btn:active {
+  background-color: #e3e6ed;
+  color: #004dff;
+}
+
+.support-chat + .btn-support-chat {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 1rem;
+  width: 9rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff !important;
+  z-index: 1045;
+  border-radius: 50rem;
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(36, 40, 46, 0.12);
+  box-shadow: 0px 0px 32px 0px rgba(36, 40, 46, 0.12);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.support-chat-bottom-lg .support-chat + .btn-support-chat {
+  bottom: 4.5rem;
+}
+@media (min-width: 576px) {
+  .support-chat + .btn-support-chat {
+    right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .support-chat + .btn-support-chat {
+    right: 3rem;
+  }
+}
+.support-chat + .btn-support-chat:hover {
+  background-color: #eff2f6 !important;
+}
+.support-chat + .btn-support-chat .fa-chevron-down {
+  display: none;
+}
+.support-chat + .btn-support-chat.btn-chat-close {
+  border-radius: 50%;
+  width: 3rem;
+}
+.support-chat + .btn-support-chat.btn-chat-close .btn-text,
+.support-chat + .btn-support-chat.btn-chat-close .fa-circle {
+  display: none;
+}
+.support-chat + .btn-support-chat.btn-chat-close .fa-chevron-down {
+  display: block;
+}
+.fs--3 {
+  font-size: 0.512rem !important;
+}
+
+.btn-reveal-trigger:hover .btn-reveal,
+.btn-reveal-trigger:focus .btn-reveal {
+  background: #f5f7fa;
+  border: 1px solid #e3e6ed;
+  color: #31374a;
+}
+.btn-reveal-trigger:hover .btn-reveal:hover,
+.btn-reveal-trigger:hover .btn-reveal:focus,
+.btn-reveal-trigger:hover .btn-reveal:active,
+.btn-reveal-trigger:focus .btn-reveal:hover,
+.btn-reveal-trigger:focus .btn-reveal:focus,
+.btn-reveal-trigger:focus .btn-reveal:active {
+  background: #e3e6ed;
+  color: #222834 !important;
+}
+.btn-reveal-trigger .dropdown-toggle:after,
+.btn-reveal-trigger .dropdown-toggle:before {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .btn-reveal-trigger-sm:hover .btn-reveal,
+  .btn-reveal-trigger-sm:focus .btn-reveal {
+    background: #f5f7fa;
+    border: 1px solid #e3e6ed;
+  }
+  .btn-reveal-trigger-sm:hover .btn-reveal:hover,
+  .btn-reveal-trigger-sm:hover .btn-reveal:focus,
+  .btn-reveal-trigger-sm:hover .btn-reveal:active,
+  .btn-reveal-trigger-sm:focus .btn-reveal:hover,
+  .btn-reveal-trigger-sm:focus .btn-reveal:focus,
+  .btn-reveal-trigger-sm:focus .btn-reveal:active {
+    color: #141824 !important;
+  }
+  .btn-reveal-trigger-sm .dropdown-toggle:after,
+  .btn-reveal-trigger-sm .dropdown-toggle:before {
+    display: none;
+  }
+}
+
+.hover-actions-trigger.btn-reveal-trigger .hover-actions {
+  right: 3rem;
+}
+.fs-1 {
+  font-size: 1.25rem !important;
+}
+.avatar-3xl {
+  height: 4.5rem;
+  width: 4.5rem;
+}
