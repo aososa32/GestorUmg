@@ -7,6 +7,7 @@ import BarChart from "../components/BarChart";
 import ProyectoChart from "../components/ProyectoChart";
 import PorcentajeChart from "../components/PorcentajeChart";
 
+
 const Dashboard = () => {
   const cookies = useCookies();
   const username = cookies.get("username") || "Administrador";
@@ -24,13 +25,15 @@ const Dashboard = () => {
       <Row>
         <h3>Dashboards</h3>
         <p><br/></p>
-        <PieChart />
-        <p><br/></p>
-        <BarChart />
+        <PorcentajeChart />
         <p><br/></p>
         <ProyectoChart />
         <p><br/></p>
-        <PorcentajeChart />
+        <BarChart />
+        
+        <p><br/></p>
+        
+        <PieChart />
       </Row>
     </Container>
   );

@@ -111,7 +111,7 @@ export default function Login() {
       </div>
       <br />
       <Button type="submit" variant="primary" className="w-100 mb-3 btn-text-small">
-        <i className="fas fa-user me-2"></i>Iniciar Sesión
+        <i className="fas fa-user me-2"></i>Clic para Iniciar
       </Button>
       <Toast />
     </Form>

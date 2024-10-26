@@ -12,9 +12,9 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #c0dee7;
   background-clip: border-box;
-  border: 1px solid #e3e6ed;
+  border: 1px solid #0d2865;
   border-radius: 0.5rem;
 }
 .card > hr {
@@ -262,7 +262,7 @@ html:not(.navbar-vertical-collapsed)
   border-color: #3874ff !important;
 }
 .form-control::file-selector-button {
-  background-color: #eff2f6 !important;
+  background-color: #d5dfed !important;
 }
 .form-floating > label {
   color: #3e465b;
