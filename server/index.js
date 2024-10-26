@@ -846,6 +846,6 @@ app.post("/login", (req, res) => {
 
 ////////////////// server ////////////////////
 
-app.listen(3001, ()=>{
+app.listen(3000, ()=>{
     console.log("corriendo en el puerto 3001");
 })
